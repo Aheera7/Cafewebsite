@@ -1,0 +1,521 @@
+/* STYLES CONCERNING INDEX.HTML FILE LINE 2- 213*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    
+    background-image: url(pexels-marta-dzedyshko-2775827.jpg);
+    background-size: cover; /* Covers the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: repeat-y;     
+  background-color: rgba(255, 255,255, 1);
+
+  /* Global Styles */
+  
+    font-family: Arial, sans-serif;
+    color: #fff;
+    
+  }
+  /* CSS for the navigation bar */
+  /*Back button and home button styles*/
+.navbar {
+  color: #fff;
+  
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.back-button {
+  
+  background-color: transparent;
+  border: none;
+  color: white; /* Change button text color */
+  font-size: 20px;
+  cursor: pointer;
+}
+.home-button{
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+}
+.back-button:hover {
+  text-decoration: underline;
+}
+.back-button:hover {
+  text-decoration: underline;
+}
+
+  
+  .container {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .container h2 {
+    margin-top: 0;
+  }
+  
+  .container label {
+    display: grid;
+    margin-bottom: 10px;
+  }
+  
+  .container input,
+  .container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition effect */
+  }
+  
+  .container button:hover {
+    background-color: #e55900; /* Changed background color on hover */
+  }
+  
+  /* Header Styles */
+  header {
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  background-image: url(pexels-negative-space-34085.jpg);
+
+    background-color: #463123;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px ;
+    color: #fff;
+  
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flexbox used for horizontal layout */
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #ff6600; /* Changed color on hover */
+  }
+
+
+  /*About section style*/
+  .about-content {
+    max-width: 800px; /* Limits the width of the content */
+    margin: 0 auto; /* Centered the content horizontally */
+  }
+  
+  .about-content h2 {
+    font-size: 2em; 
+    color: #fff; /* Set the color of the heading */
+  }
+  
+  .about-content p {
+    font-size: 1.1em; 
+    line-height: 1.6; /* Increased the line height for readability */
+    color: #fff; /* Set the color of paragraphs */
+  }
+  
+  /* Optional: Add styles for sidebars */
+  .sidebar-left {
+    width: 25%; /* Adjusted width  */
+    background-color: #f0f0f0; 
+  }
+  
+  .sidebar-right {
+    width: 25%; /* Adjusted */
+    background-color: #f0f0f0; 
+  }
+  
+  
+  
+  /* Hero Section Styles index.html */
+  #hero {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+  }
+  
+  /* Other section Styles (About, Menu, Gallery, Events, Contact) */
+  section {
+    padding: 50px 0;
+    text-align: left;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-image: url(pexels-negative-space-34085.jpg);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+  }
+  
+  footer nav ul {
+
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  footer nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer nav ul li a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+    
+  
+  /* CONTACT FORM STYLES LINE 222-228 */
+#contact {
+  display: flex; /* Used Flexbox for layout */
+  justify-content: center; /* Centered content horizontally */
+  align-items: center; /* content vertically centered */
+  height: 100vh; /* height = full viewport height */
+}
+.container label{
+  color: #fff;
+}
+
+/* About Us HTML page */
+#about-us {
+  background-image: url(pexels-pavel-danilyuk-6612669.jpg);
+  padding: 50px; /* Added some padding for spacing */
+}
+
+
+/* GALLERY PAGE STYLES LINE 230 - 285 */
+#gallery {
+font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+
+
+padding: 50px 0; /* Added padding for spacing */
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid with min/max width */
+grid-gap: 20px; /* Added gap */
+}
+
+.grid-item {
+overflow: hidden; /* Hid overflow to prevent overlapping */
+}
+
+.grid-item img {
+width: 100%; /* images to fill their grid container */
+height: auto; /* aspect ratio maintained */
+
+}
+
+footer {
+  background-color: #f0f0f0; /* Set background color */
+  padding: 20px 0; 
+  text-align: center; 
+}
+
+.social-icons {
+  display: inline-block; /* Displaying icons in a row */
+}
+
+.social-icons a {
+  display: inline-block; /* icons inline */
+  margin: 0 10px; /* Added spacing between icons */
+}
+
+.social-icons img {
+  width: 30px; /* Set the width of the icons */
+  height: auto; /* aspect ratio Maintained */
+}
+
+
+/*EVENTS PAGE SECTION 286-320 */
+#events {
+  color: black;
+  padding: 50px 0; /* Added padding for spacing */
+}
+.container h2  {
+color: white;
+}
+.container p{
+  color:white;
+}
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+  grid-gap: 20px; /* Added gap between events */
+}
+
+.event {
+  background-color: #f0f0f0; /* Set background color for events */
+  padding: 20px; /* Added padding for spacing */
+  border-radius: 10px; /* Added rounded corners */
+}
+
+.event h3 {
+  margin-top: 0; /* Removed default margin */
+}
+
+.event h3 {
+  color: black;
+}
+.event p{
+  color:black
+}
+
+
+/* STYLE FOR MENU PAGE 319-448 */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#menu h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.extras {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h3 {
+  font-size: 24px;
+  margin-bottom: 10
+}
+
+
+/* Basic CSS reset for MENU PAGE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #000; 
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#menu {
+  background-color: chocolate;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: chocolate;
+}
+
+tr:nth-child(even) {
+  background-color: #d3A075;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.extras li {
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+.container2 h2 {
+  
+    font-family: "Abril Fatface", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:large;
+  
+  
+  color: black;
+
+}
+.container2 h3{
+  color: black;
+
+}
+/* Media queries for different screen sizes to make the website more responsive.*/
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .item {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .item {
+    width: 33.33%;
+  }
+}
+
+
+
+

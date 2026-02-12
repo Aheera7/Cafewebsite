@@ -1,0 +1,57 @@
+<!--This is a separate file for the contact form of the website-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Brew Haven Café</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!--Home button and back button-->
+  <nav class="navbar">
+    <button class="back-button" onclick="goBack()">Back</button>
+    <button class="home-button"><a href="index.html">HOME</a></button>
+    <h1 class="logo">Brew Haven Café</h1>
+</nav>
+
+
+
+<script src="script.js"></script> <!-- Link to your JavaScript file -->
+  <header>
+    
+  </header>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Here is a contact form attached if you want to contact us. Our social links are also listed at the bottom of the page.</p>
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="1" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank"><img src="Social Media Logos/Facebook_Logo_Primary.png" alt="Facebook"></a>
+      <a href="https://twitter.com" target="_blank"><img src="Social Media Logos/logo-white.png" alt="Twitter"></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="Social Media Logos/Instgram logo.png" alt="Instagram"></a>
+      
+    </div>
+  </footer>
+</body>
+</html>
+
+<!--I can also get it actually working by linking .php file and adding a receiver address, but i thought i would not be relevant-->
